@@ -1,0 +1,126 @@
+body {
+	margin: 0;
+	padding: 0;
+	display: flex;
+  font-family: Georgia, AppleGothic, sans-serif;
+  background-color: black;
+}
+
+#app {
+  height: 100%;
+  margin: 0;
+  background-color: black;
+}
+#app {
+  display: flex;
+  flex-direction: column;
+  font-family: Georgia;
+  background-color: black;
+  font-size: 1rem;
+}
+#top {
+  display: flex;
+}
+#brand {
+  padding: 20px;
+  background-color: red;
+  color: white
+}
+#nav {
+  background-color: black;
+  display: flex;
+  flex: 1;
+}
+.nav-item {
+  padding: 20px;
+  color: white;
+}
+#nav :hover {
+  background-color: white;
+  color: black;
+}
+#main {
+  flex: 1;
+  display: flex;
+  min-height: 1;
+  overflow: hidden;
+}
+#menu {
+  background-color: black;
+  display: flex;
+  width: 205px;
+  flex-direction: column;
+}
+.menu-item {
+  padding: 20px;
+  color: white
+}
+#menu :hover {
+  background-color: red;
+  color: white;
+}
+#menu-item-last {
+  margin-top: auto;
+  background-color: red;
+  color: white;
+  width: 160px;
+  position:absolute;
+  bottom:0;
+}
+
+.block1 {
+  flex: 15;
+  border-collapse: collapse;
+  width: 800px;
+  color: white;
+  position:relative;
+}
+
+.block1 tr {
+  border-bottom: 1px solid white;
+  border-top: 1px soild white;
+}
+
+.fix-bottom {
+  position:absolute; 
+  right:40px;
+  bottom:40px;
+}
+
+.block2 {
+  flex: 1;
+  color:white;
+  border-collapse: collapse;
+}
+
+.block2 .lined {
+	border-bottom: 1px solid white;
+}
+
+.block2 .left {
+  text-align:left;
+}
+
+.block2 .right {
+  text-align:right;
+  margin-right:10px;
+}
+
+#checkout {
+  padding: 20px;
+  margin-top:15px;
+  background-color: white;
+  color: black;
+  font-weight: bold;
+  font-size:large;
+}
+
+.image {
+  display:flex;
+  width:150px;
+  padding:3vh;
+}
+
+.cell1 {
+	width:150px;
+}
